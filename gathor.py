@@ -18,11 +18,11 @@ def main():
         choice = input("\n➜ Choix : ").strip()
 
         if choice == "1":
-            os.system("python Tools/PhoneLookup.py")
+            os.system("Tools/PhoneLookup.py")
         elif choice == "2":
-            os.system("python Tools/IpLookup.py")
+            os.system("Tools/IpLookup.py")
         elif choice == "3":
-            os.system("python Tools/AddressLookup.py")
+            os.system("Tools/AddressLookup.py")
         elif choice == "0":
             print("\n👋 Bye !")
             break
